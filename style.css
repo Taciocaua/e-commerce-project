@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-famaly: Ariel;
+}
+
+.navmenu {
+  background-color: #11534a;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
