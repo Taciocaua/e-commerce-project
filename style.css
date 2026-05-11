@@ -1,18 +1,18 @@
-* {
+html,
+body {
+  font-family: Arial;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body {
-  font-famaly: Ariel;
-}
-
 .navlink {
   max-width: 1300px;
   margin: auto;
-  margin-right: auto;
-  background-color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navmenu {
@@ -23,19 +23,17 @@ body {
   z-index: 99;
 }
 
-.navmenu > div {
-  display: center;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .logo {
   color: #f3f3f1;
 }
 
-.nav ul {
-  display: center;
-  align-items: center;
+nav ul {
+  display: flex;
+  gap: 20px;
   list-style: none;
+}
+
+nav a {
   color: #f3f3f1;
+  text-decoration: none;
 }
