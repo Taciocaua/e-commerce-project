@@ -8,10 +8,34 @@ body {
   font-famaly: Ariel;
 }
 
+.navlink {
+  max-width: 1300px;
+  margin: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+}
+
 .navmenu {
-  background-color: #11534a;
+  background-color: #2e5b38;
   padding: 1rem;
   position: sticky;
   top: 0;
   z-index: 99;
+}
+
+.navmenu > div {
+  display: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #f3f3f1;
+}
+
+.nav ul {
+  display: center;
+  align-items: center;
+  list-style: none;
+  color: #f3f3f1;
 }
