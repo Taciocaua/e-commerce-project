@@ -42,3 +42,58 @@ nav a {
   color: #f3f3f1;
   text-decoration: none;
 }
+header {
+  background-color: #f3f3f1;
+  padding: 80px 8%;
+}
+
+.header-bottom-side {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.header-bottom-side-left {
+  flex: 1;
+}
+
+.header-bottom-side-left h2 {
+  font-size: 4rem;
+  line-height: 1.1;
+  color: #2e5b38;
+  margin-bottom: 25px;
+}
+
+.header-bottom-side-left p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 35px;
+  max-width: 600px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 32px;
+  background-color: #2e5b38;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.header-bottom-side-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.header-bottom-side-right img {
+  width: 100%;
+  max-width: 550px;
+  border-radius: 20px;
+  object-fit: cover;
+}
